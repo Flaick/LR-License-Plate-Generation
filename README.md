@@ -10,7 +10,7 @@ Input:
 GT:  
 ![image](/src/training-demo/I1_000.png)  
 ## Result
-HR:
+HR:  
 ![Alt text](/src/GT-hr/I1_000_deblur.jpg)
 ![Alt text](/src/GT-hr/I1_001_deblur.jpg)  
 ![Alt text](/src/GT-hr/I1_002_deblur.jpg)
