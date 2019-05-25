@@ -7,7 +7,7 @@ The Generator is ResNet-based and the Discriminator is VGG based. Only MSE and G
 Due to the different value of the noise value, one HR images could have multiple LR images and influenced by the noise level.
 We transfer the Method to the License Plate SR problem.
 ## DataSet
-The data we used is paired and has multiple degradations. User can download their own dataset from the Web and make a directory called "training", sub-directories are named "HR" and "LR".
+The data we used is paired and has multiple degradations. User can download their own dataset from the Web and make a directory called "training", sub-directories are named "HR" and "LR".   
 Input:  
 ![image](/src/training-demo/I1_000_deblur.jpg)  
 GT:  
