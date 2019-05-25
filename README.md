@@ -1,12 +1,13 @@
 # LR-License-Plate-Generation
 ## Goal
-Here we are using the method proposed by <To learn image super-resolution, use a GAN to learn how to do image degradation first>, to generate the real-world LR license plate images for the SR problem.
+Here we propose the method based on <To learn image super-resolution, use a GAN to learn how to do image degradation first>, to generate the real-world LR license plate images for the SR problem.
 ## Network
 We tried to use auto-encoder structure to generate the LR images, but the performance is not good.   
 The Generator is ResNet-based and the Discriminator is VGG based. Only MSE and GAN-loss is included.
 Due to the different value of the noise value, one HR images could have multiple LR images and influenced by the noise level.
 We transfer the Method to the License Plate SR problem.
 ## DataSet
+The data we used is paired and has multiple degradations. User can download their own dataset from the Web and make a directory called "training", sub-directories are named "HR" and "LR".
 Input:  
 ![image](/src/training-demo/I1_000_deblur.jpg)  
 GT:  
